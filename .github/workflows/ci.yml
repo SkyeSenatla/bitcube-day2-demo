@@ -13,9 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    #Step 1: Run a failing command to demonstrate a failed workflow
-     - name: Run a failing command
-       run: exit 1
+    #Step 1: Get the code
      - name: Checkout repository
        uses: actions/checkout@v2
     #Step 2: Run a command
